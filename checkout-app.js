@@ -10,16 +10,17 @@ meta.request("/latest/meta-data/instance-id", function(err, data){
     hostname = data;
 });
 
-
 app.use(express.static(__dirname + '/public'));
 
 app.get('/api/checkout', (req, res) => {
     res.json(
         {
+            djfkdsj: "fdsfs",
             hostname: hostname,
             name: "checkout",
             process: process.env
-        })
+        }
+    )
 });
 
 app.listen(3000, function () {
