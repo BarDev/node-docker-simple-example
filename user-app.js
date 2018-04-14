@@ -3,7 +3,6 @@ const express = require('express');
 const AWS = require("aws-sdk");
 const app = express();
 
-
 var hostname = "--EMPTY--"
 var meta  = new AWS.MetadataService();
 meta.request("/latest/meta-data/instance-id", function(err, data){
