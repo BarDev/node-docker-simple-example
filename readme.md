@@ -1,4 +1,4 @@
-## Build Docker File and Push to Reposityr
+## Build Docker File and Push to Repository
 - docker build -t node-express-simple-example .
 - docker tag node-express-simple-example -bardev/node-express-simple-example
 - docker push bardev/node-express-simple-example 
