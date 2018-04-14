@@ -12,7 +12,7 @@
 - ssh -i "/mnt/c/Users/mbarlow/Documents/BarDev-AWS2018-key.pem"   ec2-user@ec2-34-228-32-246.compute-1.amazonaws.com
 
 ## How Start Containers Automatically
-https://docs.docker.com/config/containers/start-containers-automatically/
+- https://docs.docker.com/config/containers/start-containers-automatically/
 
 ## Articles on AWS Load Balancers
 - Using AWS Application Load Balancer and Network Load Balancer with EC2 Container Service - TLS  
